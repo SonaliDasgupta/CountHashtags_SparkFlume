@@ -6,7 +6,7 @@ To run the project (in Linux):
 1. Run "sbt package" inside the directory to build the target jar.
 2. Deploy the target jar using the following command:
 
-"spark-submit --class FlumeSparkPopularHashtags --master yarn-client --jars spark-streaming-flume-assemble_2.11-2.2.1.jar <target-jar-name>" > output.txt
+"spark-submit --class FlumeSparkPopularHashtags --master yarn-client --jars spark-streaming-flume-assemble_2.11-2.2.1.jar <target-jar-name> > output.txt "
 
 Make sure to download and include the spark-streaming-flume-assembly jar in your classpath.
 
